@@ -24,7 +24,7 @@ app.use(cors( {origin: 'https://deployment-testing-frontend.onrender.com',
 
 
 
-
+/*
 app.use((req, res, next) => {
   res.setHeader('Access-Control-Allow-Origin', 'https://deployment-testing-frontend.onrender.com');
   res.setHeader('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
@@ -33,7 +33,7 @@ app.use((req, res, next) => {
   next();
 });
 
-
+*/
 
 
 
