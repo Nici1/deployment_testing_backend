@@ -44,6 +44,11 @@ app.post('/bla', (req, res) => {
 });
 
 
+// Define a route for POST requests
+app.post('/', (req, res) => {
+  
+    res.send("Zdravo");
+});
 
 
 
