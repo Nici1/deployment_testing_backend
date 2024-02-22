@@ -49,6 +49,7 @@ app.post('/bla', (req, res) => {
 
 app.use('/login', login);
 
+/*
 // Serve static files from the client build directory
 app.use(express.static(path.join(__dirname, 'client', 'build')));
 
@@ -56,6 +57,7 @@ app.use(express.static(path.join(__dirname, 'client', 'build')));
 app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, 'client', 'build', 'index.html'));
 });
+*/
 
 // Start the server
 app.listen(port, () => {
