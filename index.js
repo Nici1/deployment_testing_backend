@@ -39,8 +39,8 @@ app.use((req, res, next) => {
 
 // Define a route for POST requests
 app.post('/bla', (req, res) => {
-    console.log(req.body)
-    res.send(port);
+    
+    res.send("Hehehe");
 });
 
 
